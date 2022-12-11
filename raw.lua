@@ -1,5 +1,7 @@
 local i = _G.Key
 
+print(i,_G.PassCode)
+
 if i ~= _G.PassCode then
         game.Players.LocalPlayer:Kick("ROT IN HELL")
 else

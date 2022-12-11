@@ -1,6 +1,6 @@
 local i = _G.Key
-loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/KeyGen.lua',true))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/CodeShit.lua',true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/🦶%20👣%20👂%20🦻%20👃/KeyGen.lua',true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/🦶%20👣%20👂%20🦻%20👃/CodeShit.lua',true))()
 
 
 

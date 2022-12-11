@@ -1,4 +1,4 @@
-
+CheckKey()
 
 function CheckKey()
     local i = _G.Key

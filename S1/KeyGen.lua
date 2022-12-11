@@ -1,1 +1,1 @@
-_G.PassCode = "PENISSEX"
+_G.PassCode = "PR0TOSTAR_X2006"

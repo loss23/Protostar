@@ -1,1 +1,1 @@
-"Cum"
+_G.PassCode = "SEX"

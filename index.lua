@@ -27,7 +27,7 @@ end
 
 if _G.Code ~= "nil" then
         for i=1,table.getn(_G.Codes) do
-                if _G.Code == _G.Codes[i]
+                if _G.Code == _G.Codes[i] then
                      print(_G.Code,"SEXY")   
                end
         end

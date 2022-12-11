@@ -1,1 +1,1 @@
-return "CUM"
+"Cum"

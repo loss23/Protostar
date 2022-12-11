@@ -1,1 +1,1 @@
-return "Penis"
+print("PENIS")

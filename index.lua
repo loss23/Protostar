@@ -2,9 +2,6 @@ local i = _G.Key
 loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/🦶%20👣%20👂%20🦻%20👃/KeyGen.lua',true))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/🦶%20👣%20👂%20🦻%20👃/CodeShit.lua',true))()
 
-
-
-
 if _G.DiscordInvite == true then
   syn.request(
    {
@@ -34,13 +31,8 @@ if _G.Code ~= "nil" then
 end
 
 
-
-
-
-
-
 if i ~= _G.PassCode then
         game.Players.LocalPlayer:Kick("ROT IN HELL FAG")
 else
-        
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/🤦%E2%80%8D/GameLoader.lua',true))()
 end

@@ -1,1 +1,3 @@
-_G.PassCode = loadstring(game:HttpGet('https://pastebin.com/raw/8FmGCdw7',true))()
+_G.PassCode = game:HttpGet('https://pastebin.com/raw/zwXV5DeF',true))()
+
+return _G.PassCode

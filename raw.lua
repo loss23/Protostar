@@ -17,6 +17,9 @@ else
               v:NewButton("Rejoin","Rejoin the game lmao",function()
                     game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)     
               end)
+              v:NewButton("Remote Watch","Watches remotes",function()
+                    loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
+              end)
         end
         
         ----------

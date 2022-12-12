@@ -48,7 +48,7 @@ else
 
 
         for i=1,table.getn(SDB) do
-                S:NewButton(i.tostring(),"Funny",function()
+                S:NewButton(i,"Funny",function()
                                 loadstring(game:HttpGet(SDB[i],true))()
                 end) 
         end

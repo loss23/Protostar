@@ -125,7 +125,7 @@ local themeStyles = {
         Header = Color3.fromRGB(199, 125, 255),
         TextColor = Color3.fromRGB(16, 0, 43),
         ElementColor = Color3.fromRGB(224, 170, 255)
-    },
+    }
 }
 local oldTheme = ""
 
@@ -176,24 +176,9 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Synapse
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
-	    elseif themeList == "Lego" then
-        themeList = themeStyles.Lego
-	 elseif themeList == "R1" then
-        themeList = themeStyles.R1
-	elseif themeList == "Sunset" then
-        themeList = themeStyles.Sunset
-	elseif themeList == "Winter" then
-        themeList = themeStyles.Winter
-	elseif themeList == "Usa" then
-        themeList = themeStyles.Usa
-	elseif themeList == "IronMan" then -- SECRET THEME
-        themeList = themeStyles.IronMan
-	elseif themeList == "Black" then -- SECRET THEME
-        themeList = themeStyles.Black
-    elseif themeList == "Gold" then
-        themeList = themeStyles.Gold
-    else
-        if themeList.SchemeColor == nil then
+     elseif themeList == "ProtoStar" then
+        themeList = themeStyles.ProtoStar
+     if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
         elseif themeList.Background == nil then
             themeList.Background = Color3.fromRGB(36, 37, 43)

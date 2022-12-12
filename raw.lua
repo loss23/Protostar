@@ -16,7 +16,7 @@ else
         --------------
         
         -- Buttons --
-        General:NewButton("TEST", "Sexy Test Button", function()
+        General:NewButton("IP Check", "This just prints your ip address. Before you ask or bitch about it, no, we don't store it or even take it.", function()
                print(game:HttpGetAsync("https://api.ipify.org", true))
         end)
         -------------

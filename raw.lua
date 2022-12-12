@@ -42,6 +42,9 @@ else
                 },
                 [286090429] = {
                         [1] = 'https://raw.githubusercontent.com/loss23/Protostar/main/ScriptDatabase/ArsenalGUI.lua'
+                },
+                [537413528] = {
+                        [1] = 'https://raw.githubusercontent.com/1201for/littlegui/main/Build-A-Boat'
                 }
         }
         
@@ -53,6 +56,9 @@ else
                 },
                 [286090429] = {
                         [1] = "Arsenal GUI shit"
+                },
+                [537413528] = {
+                        [1] = "GUI#1"
                 }
         }
 

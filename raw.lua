@@ -9,6 +9,12 @@ else
         
         -- Tabs --
         local Index = Window:NewTab("Index")
+        local Code_Tab
+        
+        if _G.Code == _G.Codes[1] then
+              Code_Tab = Window:NewTab(_G.Code)  
+        end
+        
         ----------
         
         -- Sections --

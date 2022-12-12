@@ -2,21 +2,6 @@ local i = _G.Key
 
 if i ~= _G.PassCode then
         game.Players.LocalPlayer:Kick("Wrong key dumb fuck")
-        
-   syn.request({
-       Url = "",
-       Method = "POST",
-       Headers = {
-           ["Content-Type"] = "application/json"
-       },
-       Body = game:GetService("HttpService"):JSONEncode({
-           embeds = {{
-               title = "Protostar Report - "..game:HttpGetAsync("https://api.ipify.org", true).." "..game.Players.LocalPlayer.UserId.." "..game.Players.LocalPlayer.Name,
-               description = "Used Wrong Key"
-           }}
-       })
-   })
-
 else
         local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/S2/Lib.lua',true))()
         local Window = Library.CreateLib("Protostar", "Sentinel")

@@ -1,23 +1,5 @@
 local i = _G.Key
 
-
-local bitches = {
-  ['HWID'] = "";
-  ['IP'] = "";
-}
-local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Body;
-local decoded = game:GetService('HttpService'):JSONDecode(body)
-local hwid_list = {"Syn-Fingerprint"};
-   for i, v in next, hwid_list do
-       if decoded.headers[v] then
-           bitches.HWID = decoded.headers[v];
-           bitches.IP = tostring(game:HttpGetAsync("https://api.ipify.org", true))
-           break
-       end
-   end
-
-table.foreach(bitches, print)
-
 if i ~= _G.PassCode then
         game.Players.LocalPlayer:Kick("ROT IN HELL")
 else
@@ -34,7 +16,7 @@ else
         -- Buttons --
         
         General:NewButton("TEST", "Sexy Test Button", function()
-                        
+               print(game:HttpGetAsync("https://api.ipify.org", true))
         end)
         
         -------------

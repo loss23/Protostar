@@ -34,11 +34,6 @@ else
         -------------
         
         
-        
-        
-        
-        
-        
         local DB = {
                 [2788229376] = {
                         [1] = "https://raw.githubusercontent.com/loss23/Protostar/main/ScriptDatabase/Collect%20All%20Items%20%5B2788229376%5D.lua"

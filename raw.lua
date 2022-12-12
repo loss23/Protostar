@@ -39,6 +39,12 @@ else
                         [1] = "https://raw.githubusercontent.com/loss23/Protostar/main/ScriptDatabase/Collect%20All%20Items%20%5B2788229376%5D.lua"
                 }
         }
+        
+        local DB_2 = {
+                [2788229376] = {
+                        [1] = "Collect All Items"
+                }        
+        }
 
 
         local Scripts = Window:NewTab("Scripts")
@@ -48,7 +54,7 @@ else
 
 
         for i=1,table.getn(SDB) do
-                S:NewButton(i,"Funny",function()
+                S:NewButton(DB_2[game.PlaceId][i],i,function()
                                 loadstring(game:HttpGet(SDB[i],true))()
                 end) 
         end

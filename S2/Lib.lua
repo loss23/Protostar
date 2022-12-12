@@ -119,63 +119,13 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
-       Lego = {
-SchemeColor = Color3.fromRGB(0, 0, 127),
-Background = Color3.fromRGB(170, 0, 0),
-Header = Color3.fromRGB(255, 223, 0),
-TextColor = Color3.fromRGB(255, 255, 255),
-ElementColor = Color3.fromRGB(85, 170, 0)
+    ProtoStar = {
+        SchemeColor = Color3.fromRGB(36, 0, 70),
+        Background = Color3.fromRGB(123, 44, 191),
+        Header = Color3.fromRGB(199, 125, 255),
+        TextColor = Color3.fromRGB(16, 0, 43),
+        ElementColor = Color3.fromRGB(224, 170, 255)
     },
-          R1 = {
-SchemeColor = Color3.fromRGB(207,0,0), 
-Background = Color3.fromRGB(40,40,40), 
-Header = Color3.fromRGB(24,24,24), 
-TextColor = Color3.fromRGB(0, 0, 0), 
-ElementColor = Color3.fromRGB(0,85,255) 
-    },
-             Sunset = {
-SchemeColor = Color3.fromRGB(193,109,129), 
-Background = Color3.fromRGB(108,93,122), 
-Header = Color3.fromRGB(53,94,126), 
-TextColor = Color3.fromRGB(0, 0, 0), 
-ElementColor = Color3.fromRGB(246,115,129) 
-    },
-                 Winter = {
-SchemeColor = Color3.fromRGB(253,286,207), 
-Background = Color3.fromRGB(168,152,217), 
-Header = Color3.fromRGB(169,216,234), 
-TextColor = Color3.fromRGB(0, 0, 0), 
-ElementColor = Color3.fromRGB(255,255,210)
-    },
-                    Usa = {
-SchemeColor = Color3.fromRGB(194,0,55), 
-Background = Color3.fromRGB(254,254,254), 
-Header = Color3.fromRGB(1,35,105), 
-TextColor = Color3.fromRGB(255, 255, 255), 
-ElementColor = Color3.fromRGB(194,0,55) 
-    },
-    
-   IronMan = {   -- SECRET THEME
-SchemeColor = Color3.fromRGB(143,155,162), 
-Background = Color3.fromRGB(228,212,150), 
-Header = Color3.fromRGB(184,56,58), 
-TextColor = Color3.fromRGB(255, 255, 255), 
-ElementColor = Color3.fromRGB(184,56,58) 
-    },
-       Black = { -- SECRET THEME
-SchemeColor = Color3.fromRGB(0, 0, 0), 
-Background = Color3.fromRGB(0, 0, 0), 
-Header = Color3.fromRGB(0, 0, 0), 
-TextColor = Color3.fromRGB(0, 0, 0), 
-ElementColor = Color3.fromRGB(0, 0, 0) 
-    },
-    Gold = {
-SchemeColor = Color3.fromRGB(204, 153, 0),
-Background = Color3.fromRGB(0, 0, 0),
-Header = Color3.fromRGB(255, 223, 0),
-TextColor = Color3.fromRGB(0, 0, 0),
-ElementColor = Color3.fromRGB(255, 223, 0)
-    }
 }
 local oldTheme = ""
 

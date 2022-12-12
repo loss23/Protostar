@@ -11,8 +11,8 @@ else
         local Code_Tab
         
         if _G.Code == _G.Codes[1] then
-              Code_Tab = Window:NewTab(_G.Code)  
-              local v = Code_Tab:NewSection("Funny Shit")
+              Code_Tab = Window:NewTab("Developer Console")  
+              local v = Code_Tab:NewSection("Dev Tools")
               v:NewButton("Rejoin","Rejoin the game lmao",function()
                     game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)     
               end)

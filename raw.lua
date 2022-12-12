@@ -13,6 +13,11 @@ else
         
         if _G.Code == _G.Codes[1] then
               Code_Tab = Window:NewTab(_G.Code)  
+              local v = Code_Tab:NewSection("Funny Shit")
+              v:NewButton("Rejoin","Rejoin the game lmao",function()
+                         syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Protostar/main/index.lua",true))()')
+                         game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)     
+              end)
         end
         
         ----------

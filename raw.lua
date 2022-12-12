@@ -37,15 +37,23 @@ else
         local DB = {
                 [2788229376] = {
                         [1] = 'https://raw.githubusercontent.com/loss23/Protostar/main/ScriptDatabase/Collect%20All%20Items.lua',
-                        [2] = 'https://raw.githubusercontent.com/niqu1337/vertical/main/core/script.lua'
+                        [2] = 'https://raw.githubusercontent.com/niqu1337/vertical/main/core/script.lua',
+                        [3] = 'https://raw.githubusercontent.com/jynzl/Da-Hood-Gui/main/Da%20Hood%20GUI'
+                },
+                [286090429] = {
+                        [1] = 'https://raw.githubusercontent.com/loss23/Protostar/main/ScriptDatabase/ArsenalGUI.lua'
                 }
         }
         
         local DB_2 = {
                 [2788229376] = {
                         [1] = "Collect All Items",
-                        [2] = "Aimbot"
-                }        
+                        [2] = "Aimbot",
+                        [3] = "Funny GUI Shit"
+                },
+                [286090429] = {
+                        [1] = "Arsenal GUI shit"
+                }
         }
 
 

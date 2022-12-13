@@ -10,17 +10,6 @@ else
         local Index = Window:NewTab("Index")
         local Code_Tab
         
-        if _G.Code == _G.Codes[1] then
-              Code_Tab = Window:NewTab("Developer Console")  
-              local v = Code_Tab:NewSection("Dev Tools")
-              v:NewButton("Rejoin","Rejoin the game lmao",function()
-                    game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)     
-              end)
-              v:NewButton("Remote Watch","Watches remotes",function()
-                    loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
-              end)
-        end
-        
         ----------
         
         -- Sections --
@@ -75,6 +64,19 @@ else
                 S:NewButton(DB_2[game.PlaceId][i],i,function()
                                 loadstring(game:HttpGet(SDB[i],true))()
                 end) 
+        end
+        
+        
+                
+        if _G.Code == _G.Codes[1] then
+              Code_Tab = Window:NewTab("Developer Console")  
+              local v = Code_Tab:NewSection("Dev Tools")
+              v:NewButton("Rejoin","Rejoin the game lmao",function()
+                    game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)     
+              end)
+              v:NewButton("Remote Watch","Watches remotes",function()
+                    loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
+              end)
         end
         
 end

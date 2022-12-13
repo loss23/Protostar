@@ -1,1 +1,1 @@
-_G.PassCode = "TitConsumer112"
+_G.PassCode = "MoneyPowerFame"

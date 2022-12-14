@@ -87,12 +87,6 @@ else
                 loadstring(game:HttpGet('https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt',true))()                
         end)
         
-        for i=1,table.getn(SDB) do
-                S:NewButton(DB_2[game.PlaceId][i],i,function()
-                                loadstring(game:HttpGet(SDB[i],true))()
-                end) 
-        end
-        
         
                 
         if _G.Code == _G.Codes[1] then
@@ -104,6 +98,13 @@ else
               v:NewButton("Remote Watch","Watches remotes",function()
                     loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
               end)
+        end
+        
+        
+        for i=1,table.getn(SDB) do
+                S:NewButton(DB_2[game.PlaceId][i],i,function()
+                                loadstring(game:HttpGet(SDB[i],true))()
+                end) 
         end
         
 end

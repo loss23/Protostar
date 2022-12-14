@@ -35,7 +35,10 @@ else
                 [537413528] = {
                         [1] = 'https://raw.githubusercontent.com/1201for/littlegui/main/Build-A-Boat',
                         [2] = 'https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua'
-                }
+                },
+                [185655149] = {
+                        [1] = 'https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/Bloxburg-Anti-Ban'
+                },
         }
         
         local DB_2 = {
@@ -50,6 +53,9 @@ else
                 [537413528] = {
                         [1] = "GUI#1",
                         [2] = "GUI#2"
+                },
+                [185655149] = {
+                        [1] = "GUI#1"
                 }
         }
 

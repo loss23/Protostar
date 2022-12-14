@@ -79,7 +79,10 @@ else
         
         local SDB = DB[game.PlaceId]
 
-
+        S:NewButton("Anti-Afk","Bruh",function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind',true))()                
+        end)
+        
         for i=1,table.getn(SDB) do
                 S:NewButton(DB_2[game.PlaceId][i],i,function()
                                 loadstring(game:HttpGet(SDB[i],true))()

@@ -83,6 +83,10 @@ else
                 loadstring(game:HttpGet('https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind',true))()                
         end)
         
+        S:NewButton("Inf-Yield","SEXY",function()
+                loadstring(game:HttpGet('https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt',true))()                
+        end)
+        
         for i=1,table.getn(SDB) do
                 S:NewButton(DB_2[game.PlaceId][i],i,function()
                                 loadstring(game:HttpGet(SDB[i],true))()

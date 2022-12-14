@@ -43,7 +43,8 @@ else
                         [1] = 'https://raw.githubusercontent.com/NukeVsCity/hackscript123/main/gui'
                 },
                 [5780309044] = {
-                        [1] = 'https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/StandAwekening.lua'
+                        [1] = 'https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/StandAwekening.lua',
+                        [2] = 'https://raw.githubusercontent.com/muzrblx/muz-scripts/main/NanoLoader/Scripts/5780309044.lua'
                 }
         }
         
@@ -67,7 +68,8 @@ else
                         [1] = "GUI#1"
                 },
                 [5780309044] = {
-                        [1] = "GUI#1"        
+                        [1] = "GUI#1",
+                        [2] = "GUI#2"
                 }
         }
 

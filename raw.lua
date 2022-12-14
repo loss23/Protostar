@@ -78,26 +78,27 @@ else
         local S = Scripts:NewSection("Scripts")
         
         local SDB = DB[game.PlaceId]
-
-        S:NewButton("Anti-Afk","Bruh",function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind',true))()                
-        end)
-        
-        S:NewButton("Inf-Yield","SEXY",function()
-                loadstring(game:HttpGet('https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt',true))()                
-        end)
         
         
                 
         if _G.Code == _G.Codes[1] then
               Code_Tab = Window:NewTab("Developer Console")  
               local v = Code_Tab:NewSection("Dev Tools")
+              local v2 = Code_Tab:NewSection("Dev Scripts")
               v:NewButton("Rejoin","Rejoin the game lmao",function()
                     game:GetService("TeleportService"):Teleport(game.PlaceId,game.Players.LocalPlayer)     
               end)
               v:NewButton("Remote Watch","Watches remotes",function()
                     loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
               end)
+                
+                v2:NewButton("Anti-Afk","Bruh",function()
+                        loadstring(game:HttpGet('https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind',true))()                
+                end)
+        
+                v2:NewButton("Inf-Yield","SEXY",function()
+                        loadstring(game:HttpGet('https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt',true))()                
+                end)
         end
         
         

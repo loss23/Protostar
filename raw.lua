@@ -117,9 +117,10 @@ else
         local Settings = Window:NewTab("Settings")
         local Settings2 = Settings:NewSection("Settings")
         
-        
         Settings2:NewKeybind("Close/Open", "Close/Open GUI", Enum.KeyCode.LeftControl, function()
                 Library:ToggleUI()
         end)
+        
+        Settings2:NewLabel("Credits: loser#5808")
 
 end

@@ -39,6 +39,9 @@ else
                 [185655149] = {
                         [1] = 'https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/Bloxburg-Anti-Ban'
                 },
+                [2809202155] = {
+                        [1] = 'https://raw.githubusercontent.com/NukeVsCity/hackscript123/main/gui'
+                }
         }
         
         local DB_2 = {
@@ -56,6 +59,9 @@ else
                 },
                 [185655149] = {
                         [1] = "AutoFarm"
+                },
+                [2809202155] = {
+                        [1] = "GUI#1"
                 }
         }
 

@@ -102,17 +102,11 @@ else
         end
         
         
-        if table.getn(SBD) then
+        if SDB then
                 for i=1,table.getn(SDB) do
                         S:NewButton(DB_2[game.PlaceId][i],i,function()
                                         loadstring(game:HttpGet(SDB[i],true))()
                 end) 
-                end
-        else
-                
-                S:NewButton("No Scripts","None Found!",function()
-                                return nil
-                        end)
-                
+                end 
         end
 end

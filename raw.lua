@@ -4,11 +4,16 @@ if i ~= _G.PassCode then
         game.Players.LocalPlayer:Kick("Wrong key dumb fuck")
 else
         local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/loss23/Protostar/main/S2/Lib.lua',true))()
-        local Window = Library.CreateLib("Protostar || "..game.Players.LocalPlayer.Name, "Ocean")
+        local Window
         
+        if _G.Code == _G.Codes[1] then
+           Window = Library.CreateLib("ProtostarX - Dev Mode || "..game.Players.LocalPlayer.Name, "Ocean")
+        else
+           Window = Library.CreateLib("Protostar || "..game.Players.LocalPlayer.Name, "Ocean")
+        end
         -- Tabs --
-        local Index = Window:NewTab("Index")
-        local Code_Tab
+        local Index = Window:NewTab("General")
+        local Code_Tab = Window:NewTab("--------------------")
         
         ----------
         
@@ -73,16 +78,13 @@ else
                 }
         }
 
-
-        local Scripts = Window:NewTab("Scripts")
-        local S = Scripts:NewSection("Scripts")
+        local Scripts = Index:NewSection("Scripts")
         
         local SDB = DB[game.PlaceId]
         
         
                 
         if _G.Code == _G.Codes[1] then
-              Code_Tab = Window:NewTab("Developer Console")  
               local v = Code_Tab:NewSection("Dev Tools")
               local v2 = Code_Tab:NewSection("Dev Scripts")
               v:NewButton("Rejoin","Rejoin the game lmao",function()
@@ -104,9 +106,20 @@ else
         
         if SDB then
                 for i=1,table.getn(SDB) do
-                        S:NewButton(DB_2[game.PlaceId][i],i,function()
+                        Scripts:NewButton(DB_2[game.PlaceId][i],i,function()
                                         loadstring(game:HttpGet(SDB[i],true))()
                 end) 
                 end 
+        else
+            Scripts:NewLabel("No Scripts To Load :(")
         end
+        
+        local Settings = Window:NewTab("Settings")
+        local Settings2 = Settings:NewSection("Settings")
+        
+        
+        Settings2:NewKeybind("Close/Open", "Close/Open GUI", Enum.KeyCode.LeftControl, function()
+                Library:ToggleUI()
+        end)
+
 end
